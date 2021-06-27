@@ -1,0 +1,15 @@
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\bin\Debug\net5.0\Product.Core.dll
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\obj\Debug\net5.0\Product.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\obj\Debug\net5.0\Product.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\obj\Debug\net5.0\Product.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\obj\Debug\net5.0\Product.Infrastructure.AssemblyInfo.cs
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\obj\Debug\net5.0\Product.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\bin\Debug\net5.0\Product.Infrastructure.deps.json
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\bin\Debug\net5.0\Product.Infrastructure.dll
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\bin\Debug\net5.0\ref\Product.Infrastructure.dll
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\bin\Debug\net5.0\Product.Infrastructure.pdb
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\bin\Debug\net5.0\Product.Core.pdb
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\obj\Debug\net5.0\Product.Infrastructure.csproj.CopyComplete
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\obj\Debug\net5.0\Product.Infrastructure.dll
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\obj\Debug\net5.0\ref\Product.Infrastructure.dll
+C:\Users\Matebook\source\repos\mete-mutlu\syndycase\src\Product.Infrastructure\obj\Debug\net5.0\Product.Infrastructure.pdb
