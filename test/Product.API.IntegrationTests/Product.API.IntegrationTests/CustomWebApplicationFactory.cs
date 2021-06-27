@@ -41,6 +41,8 @@ namespace Product.API.IntegrationTests
 
                     db.Database.EnsureCreated();
 
+                    
+
                     try
                     {
                         InitializeDbForTests(db);
@@ -56,30 +58,31 @@ namespace Product.API.IntegrationTests
 
         private void InitializeDbForTests(ProductContext context)
         {
+
             var brands = new List<Entities.Brand>
             {
-                new Entities.Brand {Id=1, Name = "Brand1" },
-                new Entities.Brand {Id=2, Name = "Brand2" },
-                new Entities.Brand {Id=3, Name = "Brand3" }
+                new Entities.Brand {Id=4, Name = "Brand1" },
+                new Entities.Brand {Id=5, Name = "Brand2" },
+                new Entities.Brand {Id=6, Name = "Brand3" }
             };
             context.AddRange(brands);
 
 
             var users = new List<Entities.User>
             {
-                new Entities.User {Id=1, Username = "User1" },
-                new Entities.User {Id=2, Username = "User2" },
-                new Entities.User {Id=3, Username = "User3" }
+                new Entities.User {Id=4, Username = "User1" },
+                new Entities.User {Id=5, Username = "User2" },
+                new Entities.User {Id=6, Username = "User3" }
             };
             context.AddRange(users);
 
 
             var products = new List<Entities.Product>
             {
-                new Entities.Product {Id=1, Name = "Product1",Description="Desc", NormalPrice=10, DiscountedPrice= 7.5M,ImageUrl="url",UserId =1, BrandId=1 },
-                new Entities.Product {Id=2, Name = "Product2",Description="Desc", NormalPrice=4, DiscountedPrice= 2,ImageUrl="url",UserId =2, BrandId=2 },
-                new Entities.Product {Id=3, Name = "Product3",Description="Desc", NormalPrice=100, DiscountedPrice= 88,ImageUrl="url",UserId =3, BrandId=3 },
-                new Entities.Product {Id=4, Name = "Product4",Description="Desc", NormalPrice=23, DiscountedPrice= 14,ImageUrl="url",UserId =3, BrandId=3 },
+                new Entities.Product {Id=5, Name = "Product1",Description="Desc", NormalPrice=10, DiscountedPrice= 7.5M,ImageUrl="url",UserId =1, BrandId=1 },
+                new Entities.Product {Id=6, Name = "Product2",Description="Desc", NormalPrice=4, DiscountedPrice= 2,ImageUrl="url",UserId =2, BrandId=2 },
+                new Entities.Product {Id=7, Name = "Product3",Description="Desc", NormalPrice=100, DiscountedPrice= 88,ImageUrl="url",UserId =3, BrandId=3 },
+                new Entities.Product {Id=8, Name = "Product4",Description="Desc", NormalPrice=23, DiscountedPrice= 14,ImageUrl="url",UserId =3, BrandId=3 },
             };
             context.AddRange(products);
 

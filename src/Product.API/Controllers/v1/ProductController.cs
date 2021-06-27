@@ -120,7 +120,7 @@ namespace Product.API.Controllers
         [HttpGet("User/{userId}")]
         public async Task<ActionResult<ProductDto>> GetByUser(int userId)
         {
-            var result = await repository.GetWhereAsync(p=>p.UserId==userId,"User","Brand");
+            var result = await repository.GetWhereAsync(p => p.UserId == userId, "User", "Brand");
             return Ok(mapper.Map<IEnumerable<ProductDto>>(result));
         }
 
@@ -160,15 +160,22 @@ namespace Product.API.Controllers
                 return BadRequest("Id must be more than ");
 
             var product = await repository.GetAsync(id);
-            if (product !=null)
+            if (product != null)
             {
                 product.Status = EntityStatus.Archived;
-                return NoContent();
+                repository.Update(product);
+                if (await unitOfWork.SaveChangesAsync() > 0)
+                {
+                    return NoContent();
+                }
+                else
+                    return Ok("Product could not be archived.");
+
             }
             else
                 return NotFound("Product could not be found");
 
-               
+
         }
 
 

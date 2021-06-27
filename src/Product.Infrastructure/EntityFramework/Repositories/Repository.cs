@@ -65,7 +65,6 @@ namespace Product.Infrastructure.EntityFramework.Repositories
             var query = dbSet.AsQueryable();
             foreach (var include in includes)
                 query = query.Include(include);
-
             return await query.Where(p=>p.Id == id).FirstOrDefaultAsync();
         }
 
